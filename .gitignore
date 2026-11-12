@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+
+# Course materials, working drafts, and submission copies
+/大作业2026秋.md
+/TODO.md
+/paper/
+/submission/
+
+# Local LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Reproducible intermediate data
+/data/raw/
+/data/processed/
+/results/tables/bootstrap_accuracy_draws.csv
+/README.local.md
+/design.md
